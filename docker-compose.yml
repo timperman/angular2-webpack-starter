@@ -1,0 +1,6 @@
+server:
+  build: .
+  volumes:
+    - ./src:/src
+  ports:
+    - 3000:3000

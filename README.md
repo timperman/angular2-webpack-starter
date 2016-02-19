@@ -31,22 +31,15 @@ This seed repo serves as an Angular 2 starter for anyone looking to get up and r
 * End-to-end Angular 2 code using Protractor.
 * Type manager with Typings
 
-### Quick start
+### Quick start with Docker
 > Clone/Download the repo then edit `app.ts` inside [`/src/app/app.ts`](/src/app/app.ts)
 
 ```bash
 # clone our repo
 # --depth 1 removes all but one .git commit history
-git clone --depth 1 https://github.com/angularclass/angular2-webpack-starter.git
+git clone --depth 1 https://github.com/timperman/angular2-webpack-starter.git
 
-# change directory to our repo
-cd angular2-webpack-starter
-
-# install the repo with npm
-npm install
-
-# start the server
-npm start
+docker-compose up
 ```
 go to [http://0.0.0.0:3000](http://0.0.0.0:3000) or [http://localhost:3000](http://localhost:3000) in your browser
 
